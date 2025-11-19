@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  aws-standalone-cp-gpu:
+  - annotations:
+      cluster.x-k8s.io/bootstrap-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/control-plane-k0sproject-k0smotron: v1beta1
+      cluster.x-k8s.io/infrastructure-aws: v1beta2
+      cluster.x-k8s.io/provider: infrastructure-aws, control-plane-k0sproject-k0smotron,
+        bootstrap-k0sproject-k0smotron
+    apiVersion: v2
+    appVersion: v1.31.5+k0s.1
+    created: "2025-11-19T11:23:21.517993+01:00"
+    description: 'An HMC template to deploy a k0s cluster on AWS with bootstrapped
+      control plane nodes with GPU nodes. '
+    digest: 334f17d2665a986729535ec04eba15c012e6390f4c15da8881f58d368870c9df
+    name: aws-standalone-cp-gpu
+    type: application
+    urls:
+    - aws-standalone-cp-gpu-0.0.2.tgz
+    version: 0.0.2
+generated: "2025-11-19T11:23:21.517368+01:00"
